@@ -1,0 +1,40 @@
+.custome {
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    background-color: red;
+}
+body{
+    background-color: darkturquoise;
+}
+h1#heading{
+    text-align: center;
+    text-shadow: "5px";
+}
+div#Askforinput{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 130%;
+}
+div#takeinput{
+    text-align: center;
+    padding: 10px;
+}
+input#input1{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+    height: 10%;
+    width: 60%;
+    color: whitesmoke;
+}
+
+div#Runcommand{
+    text-align: center;
+}
