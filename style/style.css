@@ -9,7 +9,8 @@
     background-color: red;
 }
 body{
-    background-color: darkturquoise;
+    background-image: url("../Pictures/front.gif");
+    background-size: 100%;
 }
 h1#heading{
     text-align: center;
@@ -36,5 +37,19 @@ input#input1{
 }
 
 div#Runcommand{
+    text-align: center;
+}
+
+div#outputmsg{
+    text-align: center;
+    color: rgba(233, 63, 12, 0.897);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#d1{
+    border: 5px red;
     text-align: center;
 }
