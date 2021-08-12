@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Delete Resources</title>
+        <link rel="stylesheet" href="../style/style6.css">
+        <script src="../script/script6.js"></script>
+    </head>
+    <body>
+        <h1 id="heading"> ☸ Play with kubernetes ☸ </h1>
+        </br>
+        <div id="cards">
+            <button id="b1" class="custome" onclick="fun1();">
+                Check all Resources
+            </button>
+            <div id="delete">
+                <div id="ask_res_type">
+                    Enter the resource type:
+                </div>
+                <div id="Enter_res_type">
+                    <input id="input1" type="text" placeholder="deploy/pod/service" />
+                </div>
+                </br>
+                <div id="ask_res_name">
+                    Enter the resource name:
+                </div>
+                <div id="Enter_res_name">
+                    <input id="input2" type="text" />
+                </div>
+                </br>
+                <div id="ask_ns">
+                    Enter the NameSpace name:
+                </div>
+                <div id="Enter_ns">
+                    <input id="input3" type="text" placeholder="default"/>
+                </div>
+                </br>
+                <button id="b2" class="custome" onclick="fun2();">
+                    Delete
+                </button>
+                <button id="b3" class="custome" onclick="fun3();">
+                    Clear
+                </button>
+            </div>
+        </div>
+        <div id="outputmsg">
+            Output
+        </div>
+    </br>
+        <pre>
+            <div id="output"></div>
+        </pre>
+    </body>
+</html>

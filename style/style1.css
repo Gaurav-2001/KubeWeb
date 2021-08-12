@@ -1,0 +1,46 @@
+
+h3 , h4 {
+  text-align: right;
+  float:inherit;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div#team{
+    float: left;
+    height: 100%;
+    width: 30px;
+    background-color: black;
+    color: aqua;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 300%;
+    padding: 30px;
+}
+.custome {
+    width: fit-content;
+    min-width: 250px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    background-color: red;
+    margin: 2%;
+}
+
+body{
+    background-image: url("../Pictures/front.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1#heading{
+    text-align: center;
+    text-shadow: "5px";
+}
+
+div#center{
+    text-align: center;
+}
+

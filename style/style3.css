@@ -1,0 +1,126 @@
+div#outputmsg{
+    text-align: center;
+    color: rgba(233, 63, 12, 0.897);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 2%;
+}
+h3#heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div#Runcommand{
+    text-align: center;
+}
+.custome {
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    background-color: red;
+}
+div#pod_check{
+    background-color: aqua;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5%;
+    float: right;
+}
+div#AskNameSpace{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+}
+div#EnterNameSpace{
+    text-align: center;
+}
+input#input4{
+    background-color: rgb(70, 64, 64);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+    height: 5%;
+    width: fit-content;
+    color: whitesmoke;
+}
+div#pod_launch{
+    background-color: aqua;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5%;
+    float: left;
+}
+body{
+    background-image: url("../Pictures/front.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1#heading{
+    text-align: center;
+    text-shadow: "5px";
+}
+div#cards{
+    height: 60%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+div#AskPodName{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+}
+div#EnterPodName{
+    text-align: center;
+}
+input#input1{
+    background-color: rgb(70, 64, 64);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+    height: 5%;
+    width: fit-content;
+    color: whitesmoke;
+}
+div#AskImageName{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+}
+div#EnterImageName{
+    text-align: center;
+}
+input#input2{
+    background-color: rgb(70, 64, 64);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+    height: 5%;
+    width: fit-content;
+    color: whitesmoke;
+}
+div#AskNameSpaceName{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+    text-align: center;
+}
+div#EnterNameSpaceName{
+    text-align: center;
+}
+input#input3{
+    background-color: rgb(70, 64, 64);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 110%;
+    height: 5%;
+    width: fit-content;
+    color: whitesmoke;
+}

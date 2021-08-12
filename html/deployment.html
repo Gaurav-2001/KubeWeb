@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>
+            Deployment
+        </title>
+        <link rel="stylesheet" href="../style/style4.css">
+        <script src="../script/script4.js"></script>
+    </head>
+    <body>
+        <h1 id="heading">☸ Play with kubernetes ☸</h1>
+        </br>
+        <div id="cards">
+            <div id="deploy_launch">
+                <h3 id="heading"> Launch Deployment </h2>
+                <div id="AskDeployName">
+                    Enter the Name of Deployment:
+                </div>
+                <div id="EnterDeployName">
+                    <input id="input1" type="text" />
+                </div>
+                </br>
+                <div id="AskImageName">
+                    Enter the Name of Image:
+                </div>
+                <div id="EnterImageName">
+                    <input id="input2" type="text" />
+                </div>
+            </br>
+            <div id="AskReplicas">
+                Enter the Name of Replicas:
+            </div>
+            <div id="EnterReplicas">
+                <input id="input5" type="text" placeholder="1"/>
+            </div>               
+                </br>
+                <div id="AskNameSpaceName">
+                    Enter the Name of NameSpace:
+                </div>
+                <div id="EnterNameSpaceName">
+                    <input id="input3" type="text" placeholder="default" />
+                </div>
+            </br>
+                <div id="Runcommand">
+                    <button class="custome" onclick="fun1();">
+                        Submit
+                    </button>
+                    <button class="custome" onclick="fun2();">
+                        Clear 
+                    </button>
+                </div>
+            </div>
+        </br>
+            <div id="Deploy_check">
+                <h3 id="heading"> Check Deployments </h2>
+                <div id="AskNameSpace">
+                    Enter the Name of NameSpace:
+                </div>
+                <div id="EnterNameSpace">
+                    <input id="input4" type="text" placeholder="default" />
+                </div>
+            </br>
+                <div id="Runcommand">
+                    <button class="custome" onclick="fun3();">
+                        Submit
+                    </button>
+                    <button class="custome" onclick="fun2();">
+                        Clear 
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="outputmsg">
+            Output
+        </div>
+        <pre>
+            <div id="output"></div>
+        </pre>
+    </body>
+</html>
+
+

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Expose Resources</title>
+        <link rel="stylesheet" href="../style/style5.css">
+        <script src="../script/script5.js"></script>
+    </head>
+    <body>
+        <h1 id="heading"> ☸ Play with kubernetes ☸ </h1>
+        </br>
+        <div id="card">
+            <button id="b1" class="custome" onclick="fun1();">
+                Check available deployments
+            </button>
+            <div id="Deployment">
+                <div id="Ask_dep_name">
+                    Enter Deployment name:
+                </div>
+                <div id="Enter_dep_name">
+                    <input id="input1" type="text" />
+                </div>
+                </br>
+                <div id="Ask_port_number">
+                    Enter Port to expose:
+                </div>
+                <div id="Enter_port_number">
+                    <input id="input2" type="text" />
+                </div>
+                </br>
+                <div id="ask_ns">
+                    Enter the NameSpace name:
+                </div>
+                <div id="Enter_ns">
+                    <input id="input3" type="text" placeholder="default"/>
+                </div>
+                </br>
+                <button id="b2" class="custome" onclick="fun2();">
+                    Expose
+                </button>
+                <button id="b3" class="custome" onclick="fun3();">
+                    Clear
+                </button>
+            </div>
+        </div>
+        <div id="outputmsg">
+            Output
+        </div>
+        </br>
+        <pre>
+            <div id="output"></div>
+        </pre>
+    </body>
+</html>
+
+
+

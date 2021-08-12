@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>
+            pod
+        </title>
+        <link rel="stylesheet" href="../style/style3.css">
+        <script src="../script/script3.js"></script>
+    </head>
+    <body>
+        <h1 id="heading">☸ Play with kubernetes ☸</h1>
+        </br>
+        <div id="cards">
+            <div id="pod_launch">
+                <h3 id="heading"> Launch Pod </h2>
+                <div id="AskPodName">
+                    Enter the Name of Pod:
+                </div>
+                <div id="EnterPodName">
+                    <input id="input1" type="text" />
+                </div>
+                </br>
+                <div id="AskImageName">
+                    Enter the Name of Image:
+                </div>
+                <div id="EnterImageName">
+                    <input id="input2" type="text" />
+                </div>
+                </br>
+                <div id="AskNameSpaceName">
+                    Enter the Name of NameSpace:
+                </div>
+                <div id="EnterNameSpaceName">
+                    <input id="input3" type="text" placeholder="default" />
+                </div>
+            </br>
+                <div id="Runcommand">
+                    <button class="custome" onclick="fun1();">
+                        Submit
+                    </button>
+                    <button class="custome" onclick="fun2();">
+                        Clear 
+                    </button>
+                </div>
+            </div>
+        </br>
+            <div id="pod_check">
+                <h3 id="heading"> Check Pods </h2>
+                <div id="AskNameSpace">
+                    Enter the Name of NameSpace:
+                </div>
+                <div id="EnterNameSpace">
+                    <input id="input4" type="text" placeholder="default" />
+                </div>
+            </br>
+                <div id="Runcommand">
+                    <button class="custome" onclick="fun3();">
+                        Submit
+                    </button>
+                    <button class="custome" onclick="fun2();">
+                        Clear 
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="outputmsg">
+            Output
+        </div>
+        <pre>
+            <div id="output"></div>
+        </pre>
+    </body>
+</html>

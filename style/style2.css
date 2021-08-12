@@ -10,7 +10,9 @@
 }
 body{
     background-image: url("../Pictures/front.gif");
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 h1#heading{
     text-align: center;
@@ -47,9 +49,4 @@ div#outputmsg{
     font-weight: bold;
     font-size: 150%;
     padding: 2%;
-}
-
-div#d1{
-    border: 5px red;
-    text-align: center;
 }
