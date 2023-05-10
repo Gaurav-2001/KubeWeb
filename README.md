@@ -8,3 +8,5 @@ Integrate Kubernetes commands that can be run through WebUI created by you. <br>
 👉 Scale the replica according to user needs.<br>
 👉 Delete the complete environment created.<br>
 👉 Delete specific resources given by the user.<br>
+
+Demo url: https://drive.google.com/file/d/1gHFwjzoPtFjPVE0Sth2gfHQK-l80FW1J/view?usp=sharing
